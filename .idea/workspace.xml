@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fc3aea7e-4c1e-4e9e-b1c9-487dd3be95ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/service/SpeakerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/service/SpeakerServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587028860496</updated>
       <workItem from="1587028861969" duration="4872000" />
-      <workItem from="1587034919063" duration="4771000" />
+      <workItem from="1587034919063" duration="5072000" />
     </task>
     <task id="LOCAL-00001" summary="Manually wired up the app">
       <created>1587036396086</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587039457935</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I have configured the app to use setter injection and it is fully spring enabled">
+      <created>1587040648876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587040648876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,17 +109,18 @@
     <MESSAGE value="Manually wired up the app" />
     <MESSAGE value="Added the necessary comments" />
     <MESSAGE value="Added the configuration file for java class config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the configuration file for java class config" />
+    <MESSAGE value="I have configured the app to use setter injection and it is fully spring enabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have configured the app to use setter injection and it is fully spring enabled" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1587039540274">
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1587040843786">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1587039540274" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587039455595">
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1587040843786" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587040646904">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587039455595" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587040646904" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1587034041439">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

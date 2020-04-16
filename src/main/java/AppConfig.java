@@ -18,9 +18,10 @@ public class AppConfig {
     //@Bean tells the class the method below is a bean. We can optionally name our bean
     @Bean(name = "speakerService")
     public SpeakerService getSpeakerService(){
-        SpeakerServiceImpl service = new SpeakerServiceImpl();
+        //Using constructor injection
+        SpeakerServiceImpl service = new SpeakerServiceImpl(getSpeakerRepository());
         //dependency injection
-        service.setRepository(getSpeakerRepository());
+        //service.setRepository(getSpeakerRepository());
         return service;
 
     }

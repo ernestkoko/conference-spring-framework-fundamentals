@@ -10,6 +10,11 @@ public class SpeakerServiceImpl implements SpeakerService {
     //manually wiring the Service class to the Repository class
     private SpeakerRepository repository;
 
+    //adding a constructor
+    public SpeakerServiceImpl(SpeakerRepository speakerRepository) {
+        repository = speakerRepository;
+    }
+
     @Override
     public List<Speaker> findAll(){
         return repository.findAll();
