@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc3aea7e-4c1e-4e9e-b1c9-487dd3be95ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,26 +67,42 @@
       <option name="presentableId" value="Default" />
       <updated>1587028860496</updated>
       <workItem from="1587028861969" duration="4872000" />
-      <workItem from="1587034919063" duration="609000" />
+      <workItem from="1587034919063" duration="1225000" />
     </task>
+    <task id="LOCAL-00001" summary="Manually wired up the app">
+      <created>1587036396086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587036396086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Manually wired up the app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manually wired up the app" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1587031580412">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1587031580412" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587036393773">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587036393773" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1587034041439">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1587034041439" />
-    <state x="553" y="262" key="Github.ShareDialog" timestamp="1587033972925">
+    <state x="553" y="262" key="Github.ShareDialog" timestamp="1587036435240">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="553" y="262" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1587033972925" />
+    <state x="553" y="262" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1587036435240" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1587028952085">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
