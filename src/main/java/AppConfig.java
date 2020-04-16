@@ -23,7 +23,8 @@ public class AppConfig {
     @Scope(value = BeanDefinition.SCOPE_SINGLETON) //the default scope is singleton
     public SpeakerService getSpeakerService(){
         //Using constructor injection
-        SpeakerServiceImpl service = new SpeakerServiceImpl(getSpeakerRepository());
+       // SpeakerServiceImpl service = new SpeakerServiceImpl(getSpeakerRepository());
+        SpeakerServiceImpl service = new SpeakerServiceImpl();
         //dependency injection
         //service.setRepository(getSpeakerRepository());
         return service;
