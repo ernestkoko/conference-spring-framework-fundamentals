@@ -4,7 +4,9 @@
     <list default="true" id="fc3aea7e-4c1e-4e9e-b1c9-487dd3be95ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/service/SpeakerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/service/SpeakerServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587028860496</updated>
       <workItem from="1587028861969" duration="4872000" />
-      <workItem from="1587034919063" duration="7830000" />
+      <workItem from="1587034919063" duration="8874000" />
     </task>
     <task id="LOCAL-00001" summary="Manually wired up the app">
       <created>1587036396086</created>
@@ -112,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587042208005</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Autowired the setter method from the Service class to the bean in and AppConfig file by using the annotation @Autowired">
+      <created>1587043723547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587043723547</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,17 +134,18 @@
     <MESSAGE value="I have configured the app to use setter injection and it is fully spring enabled" />
     <MESSAGE value="Have added constructor injection and removed the setter injection" />
     <MESSAGE value="Set up Bean Scope to singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up Bean Scope to singleton" />
+    <MESSAGE value="Autowired the setter method from the Service class to the bean in and AppConfig file by using the annotation @Autowired" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autowired the setter method from the Service class to the bean in and AppConfig file by using the annotation @Autowired" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1587040843786">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1587040843786" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587042205771">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587043721722">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587042205771" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587043721722" />
     <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1587034041439">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -144,22 +154,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="553" y="262" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1587036435240" />
-    <state width="1323" height="274" key="GridCell.Tab.0.bottom" timestamp="1587043581157">
+    <state width="1323" height="274" key="GridCell.Tab.0.bottom" timestamp="1587044699237">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587043581157" />
-    <state width="1323" height="274" key="GridCell.Tab.0.center" timestamp="1587043581157">
+    <state width="1323" height="274" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587044699237" />
+    <state width="1323" height="274" key="GridCell.Tab.0.center" timestamp="1587044699233">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587043581157" />
-    <state width="1323" height="274" key="GridCell.Tab.0.left" timestamp="1587043581157">
+    <state width="1323" height="274" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587044699233" />
+    <state width="1323" height="274" key="GridCell.Tab.0.left" timestamp="1587044699233">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587043581157" />
-    <state width="1323" height="274" key="GridCell.Tab.0.right" timestamp="1587043581157">
+    <state width="1323" height="274" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587044699233" />
+    <state width="1323" height="274" key="GridCell.Tab.0.right" timestamp="1587044699233">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="274" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587043581157" />
+    <state width="1323" height="274" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587044699233" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1587028952085">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

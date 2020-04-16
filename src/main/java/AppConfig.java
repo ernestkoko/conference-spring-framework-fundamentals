@@ -4,15 +4,18 @@ import com.pluralsight.service.SpeakerService;
 import com.pluralsight.service.SpeakerServiceImpl;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 import java.awt.*;
 
 //@Configuration signifies this class(AppConfig) is going to be used for configuration purpose
+//@ComponentScan({"com.pluralsight"}) this tells the app where to scan for beans and where to using the String in the brackets
 @Configuration
+@ComponentScan({"com.pluralsight"})
 public class AppConfig {
-
+/*
     //setter injection is calling a setter method on a bean
     //NOTE: Bean is a singleton, meaning it returns same instance when called several times
     //if we do not use bean we get different instances when we call a method different times
@@ -28,12 +31,13 @@ public class AppConfig {
         //dependency injection
         //service.setRepository(getSpeakerRepository());
         return service;
+    */
 
-    }
+/*
     @Bean(name = "speakerRepository")
     SpeakerRepository getSpeakerRepository(){
 
         return new HibernateSpeakerRepositoryImpl();
     }
-
+*/
 }
